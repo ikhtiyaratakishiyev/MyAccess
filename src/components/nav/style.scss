@@ -1,0 +1,45 @@
+nav{
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    .navLogo{
+        display: flex;
+        align-items: center;
+        gap: 1.6em;
+        
+        select{
+            border-radius: 1em;
+            padding: .4em .8em;
+
+        }
+    }
+    .navScreenModes{
+        display: flex;
+        align-items: center;
+        gap: .5em;
+        border: 1px solid  rgb(231, 231, 231);
+        border-radius: 1em;
+        padding: .4em ;
+        span{
+            width: .1em;
+            height: 2em;
+            background: rgb(231, 231, 231);
+
+        }
+        .screenModeWrapper{
+          padding: .3em .8em;
+          border-radius: .7em;
+          transition: .3s;
+          cursor: pointer;
+            &:hover{
+              background: rgba(231, 231, 231, 0.469);
+              
+            }
+        }
+        div{
+       
+        }
+    }
+}

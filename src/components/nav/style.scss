@@ -4,6 +4,37 @@ nav{
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    .navButtons{
+   display: flex;
+   gap: 1.5em;
+   .icon{
+    color:#eab51b ;
+    font-size: 3em;
+    justify-content: center;
+    align-items: center;
+   }
+        .button{
+            height: 2.5em;
+            border-radius: .5em;
+            border: 1px solid #eab51b ;
+            background: #eab51b;
+            color: white;
+            vertical-align: middle;
+            padding: 0 1.5em;
+            font-size: 1.2em;
+            transition: all 0.3s ease-out;
+            align-items: center;
+            justify-content: center; 
+            cursor: pointer;  
+            &:hover{
+                background: #d6a518;
+            }
+            .img{
+               font-size: 1em;
+            }         
+        }
+       
+    }
     .navLogo{
         display: flex;
         align-items: center;
@@ -20,8 +51,9 @@ nav{
         align-items: center;
         gap: .5em;
         border: 1px solid  rgb(231, 231, 231);
-        border-radius: 1em;
-        padding: .4em ;
+        border-radius: 2em;
+        padding: .4em .6em ;
+   
         span{
             width: .1em;
             height: 2em;
@@ -30,7 +62,7 @@ nav{
         }
         .screenModeWrapper{
           padding: .3em .8em;
-          border-radius: .7em;
+          border-radius: 1em;
           transition: .3s;
           cursor: pointer;
             &:hover{
@@ -41,5 +73,6 @@ nav{
         div{
        
         }
+      
     }
 }
